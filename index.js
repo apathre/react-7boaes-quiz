@@ -15,12 +15,18 @@ class App extends Component {
   render() {
     return (
       <div>
-       
-        <p>
+       <div className="heading">
+        <h1>Test App</h1>
+       </div>
+        <div className="subtitle-text">
           Start editing to see some magic happen :)
-        </p>
+        </div>
+        <div className="user-button">
         <User/>
+        </div>
+        <div className="admin-button">
         <Admin/>
+        </div>
       </div>
     );
   }

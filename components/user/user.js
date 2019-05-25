@@ -7,7 +7,7 @@ class User extends React.Component{
    render(){
      return(
        <div>
-         <p> Hello from User !!</p>
+         <button className="user-button"> Hello from User !!</button>
        </div>
      );
    }

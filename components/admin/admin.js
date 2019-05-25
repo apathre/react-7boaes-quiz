@@ -7,7 +7,8 @@ class Admin extends React.Component{
   render(){
     return(
       <div>
-        <p>Hello from Admin !!</p>
+        <br/>
+        <button className="admin-button">Hello from Admin !!</button>
       </div>
         
     );
