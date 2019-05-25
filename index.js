@@ -21,6 +21,7 @@ class App extends Component {
         <div className="subtitle-text">
           Start editing to see some magic happen :)
         </div>
+        <br/>
         <div className="user-button">
         <User/>
         </div>
